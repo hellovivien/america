@@ -1,0 +1,31 @@
+CREATE TABLE "survey" (
+"salary" REAL,
+  "location" TEXT,
+  "postal_code" TEXT,
+  "status" TEXT,
+  "job_title" TEXT,
+  "manage" TEXT,
+  "experience" INTEGER,
+  "num_of_compagnies" REAL,
+  "team_size" REAL,
+  "num_of_employees" TEXT,
+  "work_hours_per_week" REAL,
+  "city_population" TEXT,
+  "sector" TEXT,
+  "lf_jobs" TEXT,
+  "career_plans" TEXT,
+  "gender" TEXT,
+  "other_job_duties" TEXT
+);CREATE TABLE "analyst" (
+"location" TEXT,
+  "salary" REAL,
+  "job_title" TEXT,
+  "company_name" TEXT,
+  "size" TEXT,
+  "ownership" TEXT,
+  "industry" TEXT,
+  "sector" TEXT,
+  "revenue" TEXT,
+  "min_salary" INTEGER,
+  "max_salary" INTEGER
+);
